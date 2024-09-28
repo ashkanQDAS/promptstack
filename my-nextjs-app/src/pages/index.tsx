@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Head from 'next/head';
 import { Send, Plus, Menu } from 'lucide-react';
 
@@ -15,17 +15,43 @@ export default function Home() {
     setMessages((prev) => [...prev, userMessage]);
     setInput('');
 
-    // Simulated API call
-    const response = await fetch('/api/chat', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ message: input }),
-    });
+    try {
+      const response = await fetch('/api/chat', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ message: input }),
+      });
 
-    const data = await response.json();
-    const assistantMessage = { role: 'assistant' as const, content: data.message };
-    setMessages((prev) => [...prev, assistantMessage]);
+      const data = await response.json();
+
+      if (!response.ok) {
+        throw new Error(data.error || 'Failed to fetch response');
+      }
+
+      const assistantMessage = { role: 'assistant' as const, content: data.message };
+      setMessages((prev) => [...prev, assistantMessage]);
+    } catch (error) {
+      console.error('Error in handleSubmit:', error);
+      setMessages((prev) => [...prev, { 
+        role: 'assistant', 
+        content: `Error: ${error instanceof Error ? error.message : 'An unknown error occurred'}. Please check the console for more details.` 
+      }]);
+    }
   };
+
+  useEffect(() => {
+    const checkApiKey = async () => {
+      try {
+        const response = await fetch('/api/check-api-key');
+        const data = await response.json();
+        console.log('API Key status:', data.status);
+      } catch (error) {
+        console.error('Error checking API key:', error);
+      }
+    };
+
+    checkApiKey();
+  }, []);
 
   return (
     <div className="flex h-screen bg-gray-100">
