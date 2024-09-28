@@ -11,7 +11,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
       const model = genAI.getGenerativeModel({ model: "gemini-pro" });
       const result = await model.generateContent(message);
       const response = await result.response;
-      const text = response.text();
+      const text = await response.text(); // Await the text method
 
       res.status(200).json({ message: text });
     } catch (error) {
