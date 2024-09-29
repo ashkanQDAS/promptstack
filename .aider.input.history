@@ -1,0 +1,674 @@
+
+# 2024-09-29 11:10:06.443045
++y
+
+# 2024-09-29 11:12:35.474234
++export GEMINI_API_KEY=AIzaSyCcT4n8LDF7srYTcb5Fmu5etFbx0eSJyuE
+
+# 2024-09-29 11:14:08.315700
++aider --list-models gemini
+
+# 2024-09-29 11:14:23.764591
++y
+
+# 2024-09-29 11:14:33.758813
++hello can u see my file
+
+# 2024-09-29 11:15:03.778361
++can u not read my codebase
+
+# 2024-09-29 11:25:10.582333
++that contnet dofesnt exsit? 
+
+# 2024-09-29 11:26:38.703840
++waht do u have acces sto
+
+# 2024-09-29 11:26:58.968921
++how do i haad dmy whoel codabe for u raccess
+
+# 2024-09-29 11:33:24.031699
++can u see the proejct i am owkring on 
+
+# 2024-09-29 11:36:54.910737
++aider --list-models gemini/
+
+# 2024-09-29 11:37:51.534031
++ti wna to tbuild a chatgpt clone
+
+# 2024-09-29 11:38:03.478653
++y
+
+# 2024-09-29 11:38:30.172053
++n
+
+# 2024-09-29 11:40:39.351626
++remove all the backend stuf for now like openai intreragiton becuse ihg tnow we ar eofuc son in front end
+
+# 2024-09-29 11:40:55.222886
++y
+
+# 2024-09-29 11:40:55.226769
++/run npm run dev
+
+# 2024-09-29 11:40:58.448900
++Yes
+
+# 2024-09-29 11:41:00.784487
++npm run dev
+
+# 2024-09-29 11:41:24.128787
++N
+
+# 2024-09-29 11:41:39.234908
++do you see my current code -- see my vision it si supe deot be ai rpgrmaign system that ui cna make ful stakc aps form bwoser
+
+# 2024-09-29 11:42:29.402882
++whats th ebst ya of haivng a backedn in ehr ein my codebase? liok e datbases? etc 
+
+# 2024-09-29 11:43:12.148582
++ok hwo this , impeemt a landing page + nextjs  auth + idf thye kogin THEN they cna ocme into theis current chat page wiht the ai prgormaignsystem
+
+# 2024-09-29 11:43:50.206193
++how do i add them
+
+# 2024-09-29 11:43:57.414415
++yes
+
+# 2024-09-29 11:44:19.663349
++now waht
+
+# 2024-09-29 11:44:42.787433
++yes
+
+# 2024-09-29 11:44:43.817944
++y
+
+# 2024-09-29 11:44:49.657553
++/run npm install next-auth
+
+# 2024-09-29 11:45:05.606624
++yes
+
+# 2024-09-29 11:45:06.992060
++/run npm run dev
+
+# 2024-09-29 11:45:12.287854
++npm run dev
+
+# 2024-09-29 11:45:54.211759
++y
+
+# 2024-09-29 11:46:08.915277
++/run npm run dev
+
+# 2024-09-29 11:46:12.668761
++ye
+
+# 2024-09-29 11:46:37.385681
++uild Error
++
++Failed to compile
++Next.js (14.2.13)
++Conflicting app and page file was found, please remove the conflicting files to continue:
++
++  "src/pages/index.tsx" - "src/app/page.tsx" i get this areror when i trign to ru ur app
+
+# 2024-09-29 11:46:43.661504
++yes
+
+# 2024-09-29 11:46:43.664759
++/run rm src/pages/index.tsx
+
+# 2024-09-29 11:46:46.710469
++y
+
+# 2024-09-29 11:46:47.837449
++/run npm run dev
+
+# 2024-09-29 11:47:04.958247
++Build Error
++
++Failed to compile
++Next.js (14.2.13)
++Conflicting app and page file was found, please remove the conflicting files to continue:
++
++  "src/pages/index.tsx" - "src/app/page.tsx"
+
+# 2024-09-29 11:47:22.059357
++so wha tod i do
+
+# 2024-09-29 11:48:26.139948
++Failed to compile
++Next.js (14.2.13)
++Conflicting app and page file was found, please remove the conflicting files to continue:
++
++  "src/pages/index.tsx" - "src/app/page.tsx"
+
+# 2024-09-29 11:48:45.363536
++yes
+
+# 2024-09-29 11:48:45.367446
++/run rm src/pages/index.tsx
+
+# 2024-09-29 11:48:49.268223
++Yes
+
+# 2024-09-29 11:49:00.399707
++delete app/page.tsx
+
+# 2024-09-29 11:49:14.078341
++did you do it
+
+# 2024-09-29 11:49:21.043050
++yes
+
+# 2024-09-29 11:49:21.047062
++/run rm my-nextjs-app/src/app/page.tsx
+
+# 2024-09-29 11:49:25.889218
++de;et eit
+
+# 2024-09-29 11:50:12.116267
++describe curren tufnicntlay of m codesrbe my codebase funcitonality and my sfotware funcitonlity right now
+
+# 2024-09-29 11:50:16.286671
++descrtibe my codebsae funcitonality and current codeb
+
+# 2024-09-29 11:50:17.415923
++n
+
+# 2024-09-29 11:50:27.044352
++describe my current codebase and software funciton top to bottom based on it
+
+# 2024-09-29 11:53:32.268231
++make it so tha tthe app u first when u go tolcoal hso tu enter a landing page THEN u pres in uesnram and psowr dTHEN u can acces th eai 
+
+# 2024-09-29 11:54:13.394207
++Unhandled Runtime Error
++
++TypeError: dispatcher is null
++Source
++
++src/pages/index.tsx (37:34) @ useSession
++
++  35 |   const [projectDescription, setProjectDescription] = useState('')
++  36 |   const [codebase, setCodebase] = useState('')
++> 37 |   const {  session } = useSession();
++     |                                  ^
++  38 |   const router = useRouter();
++  39 |
++  40 |   useEffect(() => {
+
+# 2024-09-29 11:56:38.602334
++whatare u fixing it
+
+# 2024-09-29 11:56:44.673355
++yes
+
+# 2024-09-29 11:56:44.677665
++/run npm run dev
+
+# 2024-09-29 11:56:54.814923
++no i did a commit and new brnach n git
+
+# 2024-09-29 11:57:05.077729
++yes
+
+# 2024-09-29 11:57:05.081828
++/run npm run dev
+
+# 2024-09-29 11:59:40.232062
++my codebas has a bunche of eoers wheni  run npm run dev it gives this: 
+
+# 2024-09-29 12:02:13.244860
++Failed to compile
++Next.js (14.2.13)
++./src/pages/index.tsx
++
++Error: 
++  × Return statement is not allowed here
++     ╭─[/home/ashkan/promptstack/my-nextjs-app/src/pages/index.tsx:196:1]
++ 196 │         setMessages([])
++ 197 │       }
++ 198 │     
++ 199 │ ╭─▶   return (
++ 200 │ │       <div className="flex h-screen bg-gray-100">
++ 201 │ │         {/* Left Sidebar */}
++ 202 │ │         <div className="w-64 bg-gray-900 text-gray-100 p-4 flex flex-col">
++ 203 │ │           <h2 className="text-xl font-bold mb-4">AI Programming Assistant</h2>
++ 204 │ │           <button className="mb-4 w-full bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded flex items-center justify-center" onClick={handleNewProject}>
++ 205 │ │             <PlusIcon className="mr-2 h-4 w-4" />
++ 206 │ │             Create New Project
++ 207 │ │           </button>
++ 208 │ │           <h3 className="text-sm font-semibold mb-2">Previous Projects</h3>
++ 209 │ │           <div className="space-y-2 mb-4">
++ 210 │ │             <button className="w-full text-left py-2 px-4 hover:bg-gray-800 rounded flex items-center">
++ 211 │ │               <HistoryIcon className="mr-2 h-4 w-4" />
++ 212 │ │               Project 1
++ 213 │ │             </button>
++ 214 │ │             <button className="w-full text-left py-2 px-4 hover:bg-gray-800 rounded flex items-center">
++ 215 │ │               <HistoryIcon className="mr-2 h-4 w-4" />
++ 216 │ │               Project 2
++ 217 │ │             </button>
++ 218 │ │           </div>
++ 219 │ │           <div className="flex items-center space-x-2 mt-auto">
++ 220 │ │             <input
++ 221 │ │               type="checkbox"
++ 222 │ │               id="show-context"
++ 223 │ │               checked={showContext}
++ 224 │ │               onChange={(e) => setShowContext(e.target.checked)}
++ 225 │ │               className="form-checkbox h-4 w-4 text-blue-600"
++ 226 │ │             />
++ 227 │ │             <label htmlFor="show-context">Show Context</label>
++ 228 │ │           </div>
++ 229 │ │         </div>
++ 230 │ │   
++ 231 │ │         {/* Main Content */}
++ 232 │ │         <div className="flex-1 flex flex-col p-4 overflow-hidden">
++ 233 │ │           {/* Context Boxes */}
++ 234 │ │           {showContext && (
++ 235 │ │             <div className="grid grid-cols-3 gap-4 mb-4">
++ 236 │ │               <div className="bg-white p-4 rounded shadow">
++ 237 │ │                 <div className="flex items-center mb-2">
++ 238 │ │                   <DatabaseIcon className="h-5 w-5 mr-2 text-blue-500" />
++ 239 │ │                   <h3 className="font-bold">Backend/Database Configuration</h3>
++ 240 │ │                 </div>
++ 241 │ │                 <textarea 
++ 242 │ │                   value={dbConfig} 
++ 243 │ │                   onChange={(e) => setDbConfig(e.target.value)}
++ 244 │ │                   placeholder="Enter database configuration"
++ 245 │ │                   className="w-full h-24 p-2 border rounded resize-none"
++ 246 │ │                 />
++ 247 │ │               </div>
++ 248 │ │               <div className="bg-white p-4 rounded shadow">
++ 249 │ │                 <div className="flex items-center mb-2">
++ 250 │ │                   <CodeIcon className="h-5 w-5 mr-2 text-green-500" />
++ 251 │ │                   <h3 className="font-bold">Generated Codebase</h3>
++ 252 │ │                 </div>
++ 253 │ │                 <textarea 
++ 254 │ │                   value={codebase}
++ 255 │ │                   readOnly
++ 256 │ │                   className="w-full h-24 p-2 border rounded resize-none bg-gray-50"
++ 257 │ │                 />
++ 258 │ │               </div>
++ 259 │ │               <div className="bg-white p-4 rounded shadow">
++ 260 │ │                 <div className="flex items-center mb-2">
++ 261 │ │                   <FileTextIcon className="h-5 w-5 mr-2 text-purple-500" />
++ 262 │ │                   <h3 className="font-bold">Project Description</h3>
++ 263 │ │                 </div>
++ 264 │ │                 <textarea 
++ 265 │ │                   value={projectDescription} 
++ 266 │ │                   onChange={(e) => setProjectDescription(e.target.value)}
++ 267 │ │                   placeholder="Describe your project"
++ 268 │ │                   className="w-full h-24 p-2 border rounded resize-none"
++ 269 │ │                 />
++ 270 │ │               </div>
++ 271 │ │             </div>
++ 272 │ │           )}
++ 273 │ │   
++ 274 │ │           {/* Chat Interface */}
++ 275 │ │           <div className="flex-grow overflow-auto mb-4 bg-white rounded-lg shadow p-4">
++ 276 │ │             {messages.map((msg, index) => (
++ 277 │ │               <div key={index} className={`mb-4 ${msg.sender === 'user' ? 'text-right' : ''}`}>
++ 278 │ │                 <span className={`inline-block p-3 rounded-lg ${
++ 279 │ │                   msg.sender === 'user' ? 'bg-blue-500 text-white' : 
++ 280 │ │                   msg.sender === 'ai' ? 'bg-gray-100 text-gray-800' : 'bg-green-100 text-green-800'
++ 281 │ │                 }`}>
++ 282 │ │                   {msg.text}
++ 283 │ │                 </span>
++ 284 │ │               </div>
++ 285 │ │             ))}
++ 286 │ │           </div>
++ 287 │ │   
++ 288 │ │           {/* Input Area */}
++ 289 │ │           <div className="flex gap-2">
++ 290 │ │             <input 
++ 291 │ │               type="text"
++ 292 │ │               value={input} 
++ 293 │ │               onChange={(e) => setInput(e.target.value)}
++ 294 │ │               placeholder="Enter your prompt here"
++ 295 │ │               onKeyPress={(e) => e.key === 'Enter' && !isProcessing && handleSend()}
++ 296 │ │               disabled={isProcessing}
++ 297 │ │               className="flex-grow p-2 border rounded"
++ 298 │ │             />
++ 299 │ │             <button 
++ 300 │ │               onClick={handleSend} 
++ 301 │ │               disabled={isProcessing} 
++ 302 │ │               className="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded flex items-center justify-center"
++ 303 │ │             >
++ 304 │ │               {isProcessing ? <Loader2Icon className="h-4 w-4 animate-spin" /> : <SendIcon className="h-4 w-4" />}
++ 305 │ │             </button>
++ 306 │ │           </div>
++ 307 │ │         </div>
++ 308 │ │       </div>
++ 309 │ ╰─▶   )
++ 310 │     }
++     ╰────
++
++  × Expression expected
++     ╭─[/home/ashkan/promptstack/my-nextjs-app/src/pages/index.tsx:307:1]
++ 307 │       </div>
++ 308 │     </div>
++ 309 │   )
++ 310 │ }
++     · ─
++     ╰────
+
+# 2024-09-29 12:02:38.345068
++import { useState, useEffect } from 'react';
++import { useSession } from 'next-auth/react';
++import { useRouter } from 'next/navigation';
++import { SendIcon, Loader2Icon, PlusIcon, HistoryIcon, DatabaseIcon, CodeIcon, FileTextIcon } from 'lucide-react';
++
++const ClientOnly = ({ children }: { children: React.ReactNode }) => {
++  const [hasMounted, setHasMounted] = useState(false);
++
++  useEffect(() => {
++    setHasMounted(true);
++  }, []);
++
++  if (!hasMounted) {
++    return null;
++  }
++
++  return <>{children}</>;
++};
++
++
++interface Message {
++  text: string
++  sender: 'user' | 'ai' | 'system'
++}
++
++const generateCodebaseDetails = (dbConfig: string, projectDesc: string): string => {
++  const frameworks = ['React', 'Next.js', 'Vue.js', 'Angular']
++  const backends = ['Node.js', 'Python', 'Ruby on Rails', 'Java Spring']
++  const orms = ['Sequelize', 'Prisma', 'TypeORM', 'Mongoose']
++
++  const selectedFramework = frameworks[Math.floor(Math.random() * frameworks.length)]
++  const selectedBackend = backends[Math.floor(Math.random() * backends.length)]
++  const selectedOrm = orms[Math.floor(Math.random() * orms.length)]
++
++  return `Frontend: ${selectedFramework}
++Backend: ${selectedBackend}
++Database: ${dbConfig.includes('SQL') ? 'PostgreSQL' : 'MongoDB'}
++ORM: ${selectedOrm}
++API: RESTful
++Version Control: Git
++Deployment: Docker containers on Kubernetes cluster`
++}
++
++export default function Home() {
++  const [messages, setMessages] = useState<Message[]>([])
++  const [input, setInput] = useState('')
++  const [isProcessing, setIsProcessing] = useState(false)
++  const [dbConfig, setDbConfig] = useState('')
++  const [projectDescription, setProjectDescription] = useState('')
++  const [codebase, setCodebase] = useState('')
++  const {  session } = useSession();
++  const router = useRouter();
++
++  useEffect(() => {
++    if (!session) {
++      router.push('/login'); 
++    }
++  }, [session, router]); 
++
++  const [showContext, setShowContext] = useState(true);
++
++  const handleSend = async () => {
++    if (input.trim() === '') return;
++
++    const newMessage: Message = { text: input, sender: 'user' };
++    setMessages([...messages, newMessage]);
++    setInput('');
++    setIsProcessing(true);
++
++    // Simulate response for now
++    setTimeout(() => {
++      const aiResponse: Message = { text: 'Response pending...', sender: 'ai' };
++      setMessages((prevMessages) => [...prevMessages, aiResponse]);
++      setIsProcessing(false);
++    }, 1000);
++  };
++
++  return (
++    <ClientOnly> 
++      <div className="flex h-screen bg-gray-100">
++        {/* Left Sidebar */}
++        <div className="w-64 bg-gray-900 text-gray-100 p-4 flex flex-col">
++          <h2 className="text-xl font-bold mb-4">AI Programming Assistant</h2>
++          <button className="mb-4 w-full bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded flex items-center justify-center" onClick={handleNewProject}>
++            <PlusIcon className="mr-2 h-4 w-4" />
++            Create New Project
++          </button>
++          <h3 className="text-sm font-semibold mb-2">Previous Projects</h3>
++          <div className="space-y-2 mb-4">
++            <button className="w-full text-left py-2 px-4 hover:bg-gray-800 rounded flex items-center">
++              <HistoryIcon className="mr-2 h-4 w-4" />
++              Project 1
++            </button>
++            <button className="w-full text-left py-2 px-4 hover:bg-gray-800 rounded flex items-center">
++              <HistoryIcon className="mr-2 h-4 w-4" />
++              Project 2
++            </button>
++          </div>
++          <div className="flex items-center space-x-2 mt-auto">
++            <input
++              type="checkbox"
++              id="show-context"
++              checked={showContext}
++              onChange={(e) => setShowContext(e.target.checked)}
++              className="form-checkbox h-4 w-4 text-blue-600"
++            />
++            <label htmlFor="show-context">Show Context</label>
++          </div>
++        </div>
++
++        {/* Main Content */}
++        <div className="flex-1 flex flex-col p-4 overflow-hidden">
++          {/* Context Boxes */}
++          {showContext && (
++            <div className="grid grid-cols-3 gap-4 mb-4">
++              <div className="bg-white p-4 rounded shadow">
++                <div className="flex items-center mb-2">
++                  <DatabaseIcon className="h-5 w-5 mr-2 text-blue-500" />
++                  <h3 className="font-bold">Backend/Database Configuration</h3>
++                </div>
++                <textarea
++                  value={dbConfig}
++                  onChange={(e) => setDbConfig(e.target.value)}
++                  placeholder="Enter database configuration"
++                  className="w-full h-24 p-2 border rounded resize-none"
++                />
++              </div>
++              <div className="bg-white p-4 rounded shadow">
++                <div className="flex items-center mb-2">
++                  <CodeIcon className="h-5 w-5 mr-2 text-green-500" />
++                  <h3 className="font-bold">Generated Codebase</h3>
++                </div>
++                <textarea
++                  value={codebase}
++                  readOnly
++                  className="w-full h-24 p-2 border rounded resize-none bg-gray-50"
++                />
++              </div>
++              <div className="bg-white p-4 rounded shadow">
++                <div className="flex items-center mb-2">
++                  <FileTextIcon className="h-5 w-5 mr-2 text-purple-500" />
++                  <h3 className="font-bold">Project Description</h3>
++                </div>
++                <textarea
++                  value={projectDescription}
++                  onChange={(e) => setProjectDescription(e.target.value)}
++                  placeholder="Describe your project"
++                  className="w-full h-24 p-2 border rounded resize-none"
++                />
++              </div>
++            </div>
++          )}
++
++          {/* Chat Interface */}
++          <div className="flex-grow overflow-auto mb-4 bg-white rounded-lg shadow p-4">
++            {messages.map((msg, index) => (
++              <div key={index} className={`mb-4 ${msg.sender === 'user' ? 'text-right' : ''}`}>
++                <span className={`inline-block p-3 rounded-lg ${
++                  msg.sender === 'user' ? 'bg-blue-500 text-white' :
++                    msg.sender === 'ai' ? 'bg-gray-100 text-gray-800' : 'bg-green-100 text-green-800'
++                }`}>
++                  {msg.text}
++                </span>
++              </div>
++            ))}
++          </div>
++
++          {/* Input Area */}
++          <div className="flex gap-2">
++            <input
++              type="text"
++              value={input}
++              onChange={(e) => setInput(e.target.value)}
++              placeholder="Enter your prompt here"
++              onKeyPress={(e) => e.key === 'Enter' && !isProcessing && handleSend()}
++              disabled={isProcessing}
++              className="flex-grow p-2 border rounded"
++            />
++            <button
++              onClick={handleSend}
++              disabled={isProcessing}
++              className="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded flex items-center justify-center"
++            >
++              {isProcessing ? <Loader2Icon className="h-4 w-4 animate-spin" /> : <SendIcon className="h-4 w-4" />}
++            </button>
++          </div>
++        </div>
++      </div>
++    </ClientOnly>
++  );
++};
++
++  const handleNewProject = () => {
++    setDbConfig('')
++    setProjectDescription('')
++    setMessages([])
++  }
++
++  return (
++    <div className="flex h-screen bg-gray-100">
++      {/* Left Sidebar */}
++      <div className="w-64 bg-gray-900 text-gray-100 p-4 flex flex-col">
++        <h2 className="text-xl font-bold mb-4">AI Programming Assistant</h2>
++        <button className="mb-4 w-full bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded flex items-center justify-center" onClick={handleNewProject}>
++          <PlusIcon className="mr-2 h-4 w-4" />
++          Create New Project
++        </button>
++        <h3 className="text-sm font-semibold mb-2">Previous Projects</h3>
++        <div className="space-y-2 mb-4">
++          <button className="w-full text-left py-2 px-4 hover:bg-gray-800 rounded flex items-center">
++            <HistoryIcon className="mr-2 h-4 w-4" />
++            Project 1
++          </button>
++          <button className="w-full text-left py-2 px-4 hover:bg-gray-800 rounded flex items-center">
++            <HistoryIcon className="mr-2 h-4 w-4" />
++            Project 2
++          </button>
++        </div>
++        <div className="flex items-center space-x-2 mt-auto">
++          <input
++            type="checkbox"
++            id="show-context"
++            checked={showContext}
++            onChange={(e) => setShowContext(e.target.checked)}
++            className="form-checkbox h-4 w-4 text-blue-600"
++          />
++          <label htmlFor="show-context">Show Context</label>
++        </div>
++      </div>
++
++      {/* Main Content */}
++      <div className="flex-1 flex flex-col p-4 overflow-hidden">
++        {/* Context Boxes */}
++        {showContext && (
++          <div className="grid grid-cols-3 gap-4 mb-4">
++            <div className="bg-white p-4 rounded shadow">
++              <div className="flex items-center mb-2">
++                <DatabaseIcon className="h-5 w-5 mr-2 text-blue-500" />
++                <h3 className="font-bold">Backend/Database Configuration</h3>
++              </div>
++              <textarea 
++                value={dbConfig} 
++                onChange={(e) => setDbConfig(e.target.value)}
++                placeholder="Enter database configuration"
++                className="w-full h-24 p-2 border rounded resize-none"
++              />
++            </div>
++            <div className="bg-white p-4 rounded shadow">
++              <div className="flex items-center mb-2">
++                <CodeIcon className="h-5 w-5 mr-2 text-green-500" />
++                <h3 className="font-bold">Generated Codebase</h3>
++              </div>
++              <textarea 
++                value={codebase}
++                readOnly
++                className="w-full h-24 p-2 border rounded resize-none bg-gray-50"
++              />
++            </div>
++            <div className="bg-white p-4 rounded shadow">
++              <div className="flex items-center mb-2">
++                <FileTextIcon className="h-5 w-5 mr-2 text-purple-500" />
++                <h3 className="font-bold">Project Description</h3>
++              </div>
++              <textarea 
++                value={projectDescription} 
++                onChange={(e) => setProjectDescription(e.target.value)}
++                placeholder="Describe your project"
++                className="w-full h-24 p-2 border rounded resize-none"
++              />
++            </div>
++          </div>
++        )}
++
++        {/* Chat Interface */}
++        <div className="flex-grow overflow-auto mb-4 bg-white rounded-lg shadow p-4">
++          {messages.map((msg, index) => (
++            <div key={index} className={`mb-4 ${msg.sender === 'user' ? 'text-right' : ''}`}>
++              <span className={`inline-block p-3 rounded-lg ${
++                msg.sender === 'user' ? 'bg-blue-500 text-white' : 
++                msg.sender === 'ai' ? 'bg-gray-100 text-gray-800' : 'bg-green-100 text-green-800'
++              }`}>
++                {msg.text}
++              </span>
++            </div>
++          ))}
++        </div>
++
++        {/* Input Area */}
++        <div className="flex gap-2">
++          <input 
++            type="text"
++            value={input} 
++            onChange={(e) => setInput(e.target.value)}
++            placeholder="Enter your prompt here"
++            onKeyPress={(e) => e.key === 'Enter' && !isProcessing && handleSend()}
++            disabled={isProcessing}
++            className="flex-grow p-2 border rounded"
++          />
++          <button 
++            onClick={handleSend} 
++            disabled={isProcessing} 
++            className="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded flex items-center justify-center"
++          >
++            {isProcessing ? <Loader2Icon className="h-4 w-4 animate-spin" /> : <SendIcon className="h-4 w-4" />}
++          </button>
++        </div>
++      </div>
++    </div>
++  )
++}
++
+
+# 2024-09-29 12:03:42.707279
++remove all openai stuff from index.tsx jus tmkae i tpurre frotnedn
+
+# 2024-09-29 12:03:44.785067
++y
