@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import { SendIcon, Loader2Icon, PlusIcon, HistoryIcon, DatabaseIcon, CodeIcon, FileTextIcon } from 'lucide-react'
+import { v4 as uuidv4 } from 'uuid';
 
 interface Message {
   text: string
@@ -46,11 +47,36 @@ export default function Home() {
     setIsProcessing(true)
 
     // Simulate AI response
-    setTimeout(() => {
-      const aiResponse: Message = { text: 'This is a simulated AI response.', sender: 'ai' }
-      setMessages(prevMessages => [...prevMessages, aiResponse])
-      setIsProcessing(false)
-    }, 1000)
+    const response = await fetch('https://us-central1-aiplatform.googleapis.com/v1/projects/deft-parser-397804/locations/us-central1/publishers/google/models/chat-bison-001:predict', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        Authorization: `Bearer ${process.env.NEXT_PUBLIC_API_KEY}`,
+      },
+      body: JSON.stringify({
+        "instances": [
+          {
+            "context": messages.map(m => `${m.sender}: ${m.text}`).join('\n'),
+            "messages": [{
+              "id": uuidv4(),
+              "author": "user",
+              "content": input
+            }]
+          }
+        ],
+        "parameters": {
+          "temperature": 0.7,
+          "maxOutputTokens": 256,
+          "topP": 0.95,
+          "topK": 40
+        }
+      }),
+    });
+
+    const data = await response.json();
+    const aiResponse: Message = { text: data.predictions[0].candidates[0].content, sender: 'ai' };
+    setMessages(prevMessages => [...prevMessages, aiResponse]);
+    setIsProcessing(false);
   }
 
   const handleNewProject = () => {
