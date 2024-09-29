@@ -1,5 +1,11 @@
 import { useState, useEffect } from 'react'
 import { SendIcon, Loader2Icon, PlusIcon, HistoryIcon, DatabaseIcon, CodeIcon, FileTextIcon } from 'lucide-react'
+import { Configuration, OpenAIApi } from "openai";
+
+const configuration = new Configuration({
+  apiKey: "YOUR_API_KEY",
+});
+const openai = new OpenAIApi(configuration);
 
 interface Message {
   text: string
@@ -38,20 +44,28 @@ export default function Home() {
   }, [dbConfig, projectDescription])
 
   const handleSend = async () => {
-    if (input.trim() === '') return
+    if (input.trim() === '') return;
 
-    const newMessage: Message = { text: input, sender: 'user' }
-    setMessages([...messages, newMessage])
-    setInput('')
-    setIsProcessing(true)
+    const newMessage: Message = { text: input, sender: 'user' };
+    setMessages([...messages, newMessage]);
+    setInput('');
+    setIsProcessing(true);
 
-    // Simulate AI response
-    setTimeout(() => {
-      const aiResponse: Message = { text: 'This is a simulated AI response.', sender: 'ai' }
-      setMessages(prevMessages => [...prevMessages, aiResponse])
-      setIsProcessing(false)
-    }, 1000)
-  }
+    const response = await openai.createCompletion({
+      model: "text-davinci-003",
+      prompt: input,
+      temperature: 0.9,
+      max_tokens: 150,
+      top_p: 1,
+      frequency_penalty: 0,
+      presence_penalty: 0.6,
+      stop: [" Human:", " AI:"],
+    });
+
+    const aiResponse: Message = { text: response.data.choices[0].text, sender: 'ai' };
+    setMessages(prevMessages => [...prevMessages, aiResponse]);
+    setIsProcessing(false);
+  };
 
   const handleNewProject = () => {
     setDbConfig('')
